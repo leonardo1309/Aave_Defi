@@ -1,0 +1,11 @@
+console.log(poolAddress)
+poolAddress = await poolAddressProvider.getPool
+poolAddressProvider.setPool()
+poolAddressProvider.abi
+poolAddressProvider.address
+poolAddress = await poolAddressProvider.getPool()
+poolAddress = poolAddressProvider.getPool()
+const poolAddressProvider = await ethers.getContractAt("IPoolAddressesProvider", "0x2f39d218133AFaB8F2B819B1066c7E434Ad94E9e", deployer)
+console.log(deployer)
+const {deployer} = await getNamedAccounts()
+const poolAddressProvider = await ethers.getContractAt("IPoolAddressesProvider", "0x2f39d218133AFaB8F2B819B1066c7E434Ad94E9e", deployer)
